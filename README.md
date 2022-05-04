@@ -1,5 +1,5 @@
 # Automatizacion Workshop 6
-##Santiago Botero -  Nicolas Imbachi
+Santiago Botero -  Nicolas Imbachi
  - [Sensor](#sensor)
  - [Sistema Embebido](#sistema-embebido)
    - [Hardware](#hardware)
