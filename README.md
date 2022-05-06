@@ -72,9 +72,18 @@ Referencia: [Raspberry Pi Web Simulator](https://azure-samples.github.io/raspber
 ## Conectividad
 
 ### Conectividad física
+El protocolo de capa 1 o conectividad fisica I2C.
+
+I2C funciona mediante una arquitectura de bus, donde se conectan mediante dos hilos los circuitos integrados, este protocolo se debe usar ya que la Rasberry Pi cuenta con dos perifericos para s implementacion.
+
+Referencia: [Protocolo I2C](https://hetpro-store.com/TUTORIALES/i2c/#:~:text=I2C%20es%20un%20puerto%20y,de%20comunicaci%C3%B3n%2C%20SDA%20y%20SCL.) 
 
 ### Protocolo de comunicación
+La comunicacion se realiza por medio del protocolo MQTT el cual eusa Azure por defecto. Este protocolo de comunicacion es maquina-a-maquina, con un mensaje de tipo cola. 
 
+La arquitectura es cliente servidor (publicadores suscriotores), estos intercambian datos con un servidor centralizado (Azure, IoT Hub)
+
+Referencia: [MQTT Azure](https://docs.microsoft.com/es-es/azure/iot-hub/iot-hub-mqtt-support)
 ### Protocolo de aplicación
 
 ## Analitica de datos
