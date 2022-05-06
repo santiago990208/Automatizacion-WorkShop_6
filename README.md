@@ -85,7 +85,7 @@ La arquitectura es cliente servidor (publicadores suscriotores), estos intercamb
 
 Referencia: [MQTT Azure](https://docs.microsoft.com/es-es/azure/iot-hub/iot-hub-mqtt-support)
 
-##Analitica de datos
+## Analitica de datos
 Para la solución implementamos el centro de IoT brindado por Azure, el cual no solo nos permite recibir la data en tiempo real, sino que también muestra una serie de gráficos con los cuales se puede realizar la analítica de la aplicación que se está implementando
 
 
