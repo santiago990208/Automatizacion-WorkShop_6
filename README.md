@@ -84,6 +84,8 @@ La comunicacion se realiza por medio del protocolo MQTT el cual eusa Azure por d
 La arquitectura es cliente servidor (publicadores suscriotores), estos intercambian datos con un servidor centralizado (Azure, IoT Hub)
 
 Referencia: [MQTT Azure](https://docs.microsoft.com/es-es/azure/iot-hub/iot-hub-mqtt-support)
-### Protocolo de aplicación
 
-## Analitica de datos
+##Analitica de datos
+Para la solución implementamos el centro de IoT brindado por Azure, el cual no solo nos permite recibir la data en tiempo real, sino que también muestra una serie de gráficos con los cuales se puede realizar la analítica de la aplicación que se está implementando
+
+
